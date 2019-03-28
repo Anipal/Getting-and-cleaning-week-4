@@ -1,10 +1,10 @@
 # Tidy data set description
 
 Tidy data contains 180 rows and 68 columns. Each row has averaged variables for each value of candidate column and each work.
-* mean(): Mean value
-* std(): Standard deviation
+mean(): Mean value
+std(): Standard deviation
 
-Candidate column is numbered from 1 to 30 and work column has 6 types :
+Candidate column is numbered from 1 to 30 , since 30 candidates are there and work column has 6 types :
 1. WALKING
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS
@@ -12,7 +12,7 @@ Candidate column is numbered from 1 to 30 and work column has 6 types :
 5. STANDING
 6. LAYING
 
-## The tidy data contains 6 rows(based on work) and 68 columns .
+The tidy data contains 6 rows(based on work) and 68 columns, 66 of these are sensor measurement values .
 1. "work"
 2. "candidate"
 3. "tBodyAcc-mean()-X"
